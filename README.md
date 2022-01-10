@@ -112,11 +112,6 @@ This repository contains the cheat sheet for HTML. Fork it and you are good to g
     <td>used for superscripting a text.</td>
     <td>Inline</td>
   </tr>
-  <tr>
-    <td><i>&lt;sub>......&lt;/sub></i></td>
-    <td>used for subscripting a text.</td>
-    <td>Inline</td>
-  </tr>
    <tr>
     <td><i>&lt;sub>......&lt;/sub></i></td>
     <td>used for subscripting a text.</td>
