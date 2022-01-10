@@ -10,7 +10,7 @@ This repository contains the cheat sheet for HTML. Fork it and you are good to g
 
 ## Some commonly used HTML tags:
 - *!DOCTYPE html* : present at the outermost part of HTML document.
-- *&lt;html>.....&lt;/html>* : present at the outermost part of the HTML document if this is used instead of *&lt;!DOCTYPE html>*. 
+- *&lt;html>.....&lt;/html>* : present at the outermost part of the HTML document, below  *&lt;!DOCTYPE html>*. 
 - *&lt;head>......&lt;/head>* : the head of the document and remains in between the html tags. Contains the title, logo, meta tags, script and style tags.
 - *&lt;header>.....&lt;/header>* : mostly written after closing the head tag, i.e. after the head section and before the start of the body section. It is not a necessary tag to be used in your webpage, but can be used for inserting a navigation bar or for anything to display at the top portion of the webpage.
 - *&lt;body>.....&lt;/body>* : represents the main body of the webpage. Whatever you want to present in the body of the webpage, you have to write in between the opening and closing tags of the body tag. The body tag also hosts other tags.
