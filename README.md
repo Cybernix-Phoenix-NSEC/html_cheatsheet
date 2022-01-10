@@ -133,14 +133,15 @@ This repository contains the cheat sheet for HTML. Fork it and you are good to g
        <br>
       &lt;tr>
        <br>
-      &lt;td>
-       <br>
-      &lt;/td>
+      &lt;td>....&lt;/td>
        <br>
       &lt;/tr>
        <br>
       &lt;/table></i></td>
-    <td>used for subscripting a text.</td>
-    <td>Inline</td>
+    <td>HTML table struture</td>
+    <td>Block-level</td>
   </tr>
   </table>
+
+### HTML form:
+HTML form cheatsheet is provided with example in form.html.
