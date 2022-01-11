@@ -69,6 +69,21 @@ This repository contains the cheat sheet for HTML. Fork it and you are good to g
     <td>Inline</td>
   </tr>
   <tr>
+    <td><i>&lt;button>......&lt;/button></i></td>
+    <td>HTML button</td>
+    <td>Inline</td>
+  </tr>
+  <tr>
+    <td><i>&lt;code>......&lt;/code></i></td>
+    <td>for putting piece of code in HTML</td>
+    <td>Inline</td>
+  </tr>
+  <tr>
+    <td><i>&lt;pre>......&lt;/pre></i></td>
+    <td>preformatted text</td>
+    <td>Block-level</td>
+  </tr>
+  <tr>
     <td><i>&lt;a href=”(source)” target=”_blank”(if you want the open the page in a new tab or you can leave it blank if you want to show it in the same tab)>......&lt;/a></i></td>
     <td>used to anchor a webpage with another webpage (i.e. forming a passage between the two pages). You can navigate from one page to another with the help of the anchor tag. But the anchor page needs an address and that address is provided by the href within the anchor tag.</td>
     <td>Inline</td>
