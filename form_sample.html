@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+       <label for="fname">First Name:</label>
+       <input type="text" name="fname" id="fname" class="first-name" value="procheta" readonly>
+       <label for="contact">contact</label>
+       <input type="number" name="contact" id="contact" min="0" max="10">
+       <br>
+       <label for="emailid">email</label>
+       <input type="email" name="email" id="emailid" placeholder="someone@example.com" maxlength="10">
+       <br>
+       password
+       <input type="password" name="password" disabled>
+       <input type="radio" name="fruit" value="apple">
+       apple 
+       <input type="radio" value="orange" name="fruit" checked>
+       orange
+       <select name="cars">
+        <option value="Mercedes">Mercedes</option> <!--option tag with values-->
+        <option value="Alto">Alto</option>
+        <option value="Audi">Audi</option>
+    </select>
+    <br>
+    <input type="checkbox" name="car1" value="Mercedes" checked>
+    Mercedes
+    <br>
+    <input type="color" name="color" value="##ff0000" hidden>
+    <input type="color" id="favcolor"name="favcolor" value="#ff0000">
+    <input type="submit" value="submit">
+    <input type="reset">
+    </form>
+</body>
+</html>
