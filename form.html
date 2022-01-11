@@ -10,16 +10,31 @@
   </head>
 <body>
     <br>
+    <a href="/images/city.png" download="city.png">Download</a> <!--download-->
+    <br>
+    <br>
+    <a href="mailto:procheta@gmail.com">Email</a> <!--email-->
+    <br>
+    <br>
+    <a href= “tel:+9162987297>Phone</a><!--phone-->
+    <br>
     <br>
     <form> <!--form opening tag. Needed to build HTML form.-->
-        <input type="text" name="name" placeholder="enter your name"> <!--takes user input of type "text"-->
+      <label for="name">Name:</label><br> <!--label tag-->
+        <input type="text" name="name" id="name" placeholder="enter your name" disabled value="procheta"> <!--takes user input of type "text"-->
         <br>
-        <input type="number" name="number" placeholder="enter your number"> <!--takes user input of type "number"-->
         <br>
-        <input type="email" name="email" placeholder="enter your email"> <!--takes user input of type "email"-->
+        <input type="text" name="name" id="name" placeholder="enter your name" readonly value="procheta">
+        <br>
+        <br>
+        <input type="number" name="number" placeholder="enter your number" max="10" min="5"> <!--takes user input of type "number"-->
+        <br>
+        <br>
+        <input type="email" name="email" placeholder="enter your email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$"> <!--takes user input of type "email"-->
+        <br>
         <br>
         password:
-        <input type="password" name="password" placeholder="enter your password"> <!--takes user input of type "password"-->
+        <input type="password" name="password" placeholder="enter your password" maxlength="4"> <!--takes user input of type "password"-->
         <br>
         <br>
       <!--takes user radio button input-->
@@ -39,7 +54,43 @@
         </select>
         <br>
         <br>
+        <!--takes user input as checkbox-->
+        <input type="checkbox" id="car1" name="car1" value="Mercedes">
+        <label for="car1">Mercedes</label>
+        <input type="checkbox" id="car2" name="car2" value="Audi" checked>
+        <label for="car2">Audi</label>
+        <br>
+        <br>
+        <!--takes user input color-->
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <br>
+        <br>
+        <!--hidden user input-->
+        <input type="hidden" id="helloID" name="helloID" value="76274">
+        <br>
+        <br>
+        <!--takes file input-->
+        <input type="file" id="myFile" name="myFile" required/>
+        <br>
+        <br>
+         <!--takes file input-->
+         <input type="date" name="date" id="date">
+         <br>
+         <br>
+          <!--takes input range-->
+          <input type="range" name="range" id="range" class="range" min="0" max="10">
+          <br>
+          <br>
+          <!--takes input url-->
+          <input type="url" name="website" id="website">
+          <br>
+          <br>
       <!--submit button-->
         <input type="submit" value="submit">
+        <!--reset button-->
+        <input type="reset">
     </form> <!--form closing tag-->
 </body>
+<!--disabled: for diabling input box, checked: for autochecking a default value, max: max-limit, min: min-limit, maxlength: maximum length of
+characters, pattern: for specifying regex pattern, readonly: only for reading, cannot be modified, required: mandatory fields,value: default
+value of an input field-->
